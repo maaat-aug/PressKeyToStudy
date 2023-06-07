@@ -1,0 +1,84 @@
+#navbar {
+    height: 240px;
+}
+
+#navbar-container {
+    flex-direction: column;
+    padding: 20px 0px;
+}
+
+#navbar-items {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#navbar-items li:nth-child(2) {
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+/* Showcase */
+#showcase-container {
+    padding: 40px;
+}
+
+/* Integrantes */
+#integrantes-container {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.integrante {
+    width: 50%;
+}
+
+
+/* Projeto */
+
+#projeto-container {
+    grid-template-columns: 1fr;
+}
+
+.projeto-image {
+    width: 100%;
+}
+
+
+/* Canvas */
+
+#canva-container {
+    grid-template-columns: 1fr;
+    
+}
+
+.canva-image {
+    width: 100%;
+    height: auto;
+    
+}
+
+#sprints-container{
+    grid-template-columns: 1fr;
+    text-align: left;
+    justify-content: center;
+    width: 100%;
+
+}
+
+#informs-container { 
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+#informs {
+    width: 100%;
+}
+
+    .canva-bg {
+            width: 100%;
+    }
+
+    #footer { 
+        width: 100%;
+    }
