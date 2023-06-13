@@ -1,5 +1,5 @@
 #navbar {
-    height: 240px;
+    height: 220px;
 }
 
 #navbar-container {
@@ -42,6 +42,7 @@
 
 .projeto-image {
     width: 100%;
+    height: auto;
 }
 
 

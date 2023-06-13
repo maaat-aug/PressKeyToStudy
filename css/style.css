@@ -80,7 +80,7 @@ a {
     justify-content: center;
     align-items: center;
     color: #eee;
-    background: url('../Imagens/mina.png') no-repeat center center/cover;
+    background: url('../Imagens/Mina.png') no-repeat center center/cover;
 
     /* Overlay */
     background-color: rgba(0,0,0,0.5);
@@ -110,6 +110,8 @@ a {
 
 #integrantes-container {
     display: grid;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
     grid-template-columns: repeat(6, 1fr);
     justify-items: center;
     padding: 15px;
@@ -232,6 +234,7 @@ a {
 #sprints {
     width: 100%;
     padding: 50px;
+
 }
 
 #sprints-container {
@@ -249,6 +252,7 @@ a {
     background: #bbe4f7;
     padding: 20px;
     border-radius: 15px;
+    width: 500px;
 }
 
 .sprint-title {
@@ -263,6 +267,7 @@ a {
     font-size: 1.5rem;
     font-weight: bold;
     padding: 35px;
+    text-align: left;
 }
 .sprintListItens {
     list-style:none;
