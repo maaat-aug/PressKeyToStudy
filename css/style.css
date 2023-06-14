@@ -243,7 +243,7 @@ a {
     grid-template-columns: repeat(1, 3fr);
     grid-column-gap: 50px;
     gap: 50px;
-    width: 40%;
+    width: 65%;
 }
 
 .sprint {
