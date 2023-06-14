@@ -249,7 +249,7 @@ a {
 .sprint {
     display: flex;
     flex-direction: column;
-    background: #bbe4f7;
+    background: rgba(0, 200, 255, 0.4);
     padding: 20px;
     border-radius: 15px;
 }
